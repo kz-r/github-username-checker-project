@@ -9,8 +9,8 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) {
         String listPath = "{WORDLIST PATH}";
-        String proxyAddress = "127.0.0.1";
-        int proxyPort = 40001;
+        String proxyAddress = "{PROXYADDRESS}";
+        int proxyPort = 40000;
 
         try (BufferedReader br = new BufferedReader(new FileReader(listPath))) {
             String username;
